@@ -1,0 +1,26 @@
+{
+    "name":"Homepage",
+    "description":"A storefront homepage.",
+    "region_definitions":[
+       {
+         "id":"header",
+         "name":"Name",
+         "description":"Header of the homepage",
+             "max_components":1
+       },
+       {
+         "id":"main",
+         "name":"Main",
+         "description":"Main area of the homepage",
+         "component_type_exclusions":[
+             {"type_id":"banner"}
+         ]
+       },
+       {
+         "id":"footer",
+         "name":"Footer",
+         "description":"Footer of the homepage",
+         "max_components":1
+         }
+       ]
+   }
